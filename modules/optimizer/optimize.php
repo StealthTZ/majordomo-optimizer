@@ -210,7 +210,7 @@ summary{cursor:pointer;color:var(--muted);font-size:12px;user-select:none}
   var $ = function (id) { return document.getElementById(id); };
   var nf = function (n) { return (n || 0).toLocaleString('ru-RU'); };
 
-  $('started').textContent = 'Начало: ' + new Date().toLocaleTimeString('ru-RU');
+  $('started').textContent = 'Started: ' + new Date().toLocaleTimeString('ru-RU');
 
   function pad(n) { return (n < 10 ? '0' : '') + n; }
   function tick() {
